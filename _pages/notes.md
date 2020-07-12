@@ -1,8 +1,6 @@
 ---
 title: Notes
-layout: collection
+layout: notes
 permalink: /notes/
-collection: notes
-entries_layout: grid
-classes: wide
+author_profile: true
 ---
