@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Josh Nutt"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "bio goes here"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Constantly automating, currently studying [IaC, RedHat, Azure].  When I'm not writing PowerShell I'm probably hiking or playing Age of Empires 2."
   location         : "Arlington, Texas"
   email            :
   links:
@@ -108,9 +108,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "Linkedin"
+      icon: "fa-linkedin-square"
+      url: "https://www.linkedin.com/in/joshua-nutt-128857132/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joshuanutt/"
