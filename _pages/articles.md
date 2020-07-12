@@ -1,6 +1,5 @@
 ---
 title: Articles
-layout: articles
-author_profile: true
+layout: home
 permalink: /articles/
 ---
