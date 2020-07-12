@@ -270,7 +270,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-  posts:
+  articles:
     output: true
     permalink: /:collection/:path/
 
@@ -291,6 +291,17 @@ defaults:
   - scope:
       path: "/notes/"
       type: notes
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
+  - scope:
+      path: ""
+      type: articles
     values:
       layout: single
       author_profile: true
