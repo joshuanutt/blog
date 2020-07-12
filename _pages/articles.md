@@ -1,8 +1,5 @@
 ---
 title: Articles
-layout: collection
+layout: home
 permalink: /articles/
-collection: articles
-entries_layout: grid
-classes: wide
 ---
