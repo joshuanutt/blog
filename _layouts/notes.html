@@ -5,6 +5,11 @@ layout: archive
 {{ content }}
 
 {% for note in site.notes %}
+  <ul>
+    {% for tag in note.tags%}
+      <li>{{ tag }}</li> 
+    {% endfor %}
+  </ul>
   <h2>"hmm"</h2>
   <p>{{ note.content | markdownify }}</p>
 {% endfor %}

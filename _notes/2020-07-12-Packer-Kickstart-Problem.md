@@ -1,6 +1,7 @@
 ---
 name: Jane Doe
 position: Developer
+tags: Terraform IaC Devops
 ---
 
 
