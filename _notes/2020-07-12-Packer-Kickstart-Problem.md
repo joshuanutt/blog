@@ -1,28 +1,34 @@
 ---
-name: Jane Doe
-position: Developer
-tags: Terraform IaC Devops
+tags: Packer IaC Devops
 ---
 
+I ran into an issue with **Packer** when building a template for **Centos7**. I was following every online example or template I could find, with no success.
 
-## is this a note ??? did this wokr!?!?!!
-Terraform couldn't find my datastore so I use [GOVC](https://github.com/vmware/govmomi/tree/master/govc) to get the exact path.
+<br>
+There were no errors thrown during installation, but the kickstart file didn't appear to be doing anything.
 <br>
 
-Once installing `GOVC` I was able to find the path via `govc datastore.info`.
+#### Problem:
+The Kickstart file was being ignored.
 <br>
 
-Output from the script will contain the path:
-```
-Name: TXDatastore01 
-Path: /Datacenter/datastore/TXDatastore01
-```
+Every Packer example I could find used `.cfg` and looked something like this:
+<br>
+`"boot_command": ["<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"]`
 <br>
 
-I took the path and added it to the Terraform file:
-```
-    data "vsphere_datastore" "datastore" { 
-        name          = "/Datacenter/datastore/TXDatastore01" 
-        datacenter_id = data.vsphere_datacenter.dc.id 
-     }
-```
+or:
+<br>
+`"boot_command": ["<esc><wait>linux inst.ks=hd:fd0:/kickstart.cfg<enter>"] `
+<br><br>
+
+#### Solution:
+The [Centos7 Docs](https://docs.centos.org/en-US/centos/install-guide/Kickstart2/) examples all use `.ks` extension so I switched from `.cfg` to `.ks` and it worked perfectly.
+<br>
+
+```"boot_command": [ 
+            "<esc>",
+            "<wait>",
+            "linux inst.ks=hd:fd0:/kickstart.ks",
+            "<enter>"
+        ]```
