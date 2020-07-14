@@ -1,0 +1,10 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% for note in site.notes %}
+  <h2>"hmm"</h2>
+  <p>{{ note.content | markdownify }}</p>
+{% endfor %}
