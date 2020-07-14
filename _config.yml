@@ -109,7 +109,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Linkedin"
-      icon: "fa fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/joshua-nutt-128857132/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -130,6 +130,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joshuanutt/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/joshua-nutt-128857132/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
