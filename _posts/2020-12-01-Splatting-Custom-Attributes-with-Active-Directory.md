@@ -43,7 +43,7 @@ Easiest way to tell is to use Intellisense.
 If the parameter is suggested when starting to type it into the console, then it can be splatted.
 
 Can splat Email Address:<br>
-![PowerShell Console Image](./splat01.png?raw=true)
+![PowerShell Console Image](./_posts/splat01.png?raw=true)
 
 ```powershell
 $Arguments = @{
@@ -54,7 +54,7 @@ Set-ADUser test.josh @Arguments
 ```
 
 Can not splat extension attributes:<br>
-![PowerShell Console Image](./splat02.png?raw=true)
+![PowerShell Console Image](./_posts/splat02.png?raw=true)
 
 ```powershell
 $Arguments = @{
