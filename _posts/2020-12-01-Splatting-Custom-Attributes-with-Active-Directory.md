@@ -53,6 +53,8 @@ $Arguments = @{
 Set-ADUser test.josh @Arguments
 ```
 
+<br>
+
 Can not splat extension attributes:<br>
 ![PowerShell Console Image](https://github.com/joshuanutt/blog/blob/master/_posts/splat02.png?raw=true)
 
