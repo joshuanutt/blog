@@ -1,5 +1,3 @@
-# Splatting Custom Attributes with Active Directory
-
 Using splatted values can help better organize your code for managing AD Objects.
 
 <br>
