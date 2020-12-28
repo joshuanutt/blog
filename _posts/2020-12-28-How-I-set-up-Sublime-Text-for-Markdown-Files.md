@@ -1,5 +1,3 @@
-# How I set up Sublime Text for Markdown Files
-<br/>  
 
 ### What is Markdown?
 Markdown is a **lightweight markup language** and uses a **plain-text-formatting** syntax. Markdown is often **used to format readme files** and can create rich text using a plain text editor. <br/>  
@@ -66,3 +64,4 @@ To use the Pandoc package:
 - Type ```Pandoc``` and press <kbd>Enter</kbd>. 
 - Pick the exported file type from the list.
 - Your file will open in your default viewer for that file type.
+
