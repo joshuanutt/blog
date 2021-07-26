@@ -12,12 +12,12 @@ Last sector, +sectors or +size{K,M,G} (93634560-314572799, default 314572799):
 
 ```
 
-Create a physical volume from the parition
+Create a physical volume from the partition
 ```sh
 lvm pvcreate /dev/sda3
 ```
 
-My drive was too fool to do the extension, so I deleted some old logs.
+My drive was too full to do the extension, so I deleted some old logs.
 
 Extend vg
 ```sh
