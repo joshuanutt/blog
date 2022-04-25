@@ -96,15 +96,10 @@ author:
   name             : "Josh Nutt"
   avatar           : "/assets/images/bio.jpg"
   bio              : |-
-    IT professional.
-      - 6+ years of experience
-      - <3 PowerShell
-      - Builder of automation
+    IT professional with 6+ years of experience.
+    Builds automation with Powershell, Python, and APIs.
     
-    Currently studying
-      - IaC
-      - Cyber Security
-      - and Azure
+    Currently studying Infrastructure as Code, Cyber Security, and Azure and working on CRTO and CRTP certifications.
     
     When Im not studying Im probably hiking or playing Age of Empires 2.
     
