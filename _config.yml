@@ -20,7 +20,7 @@ title                    : "Josh Nutt"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Josh Nutt"
-description              : "An amazing website."
+description              : "My tech blog."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Josh Nutt"
   avatar           : "/assets/images/bio.jpg"
-  bio              : "On a quest to automate everything. Currently studying IaC, RedHat, and Azure.  When I'm not studying I'm probably hiking or playing Age of Empires 2."
+  bio              : "IT professional. Currently studying IaC, Security, and Azure.  When I'm not studying I'm probably hiking or playing Age of Empires 2."
   location         : "Arlington, Texas"
   email            :
   links:
