@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Notes"
-    url: "/notes/"
+  # - title: "Notes"
+    # url: "/notes/"
   # - title: "Articles"
    #  url: "/articles/"
