@@ -6,8 +6,6 @@ tags: [
 ]
 ---
 
-# Kerberos Encryption Types 
-
 While working on the CRTO course I ran into a hash that I couldn't crack with Hashcat.  Instead returning an error indicating the hash is invalid.
 
 John could crack it though. What the heck?!
