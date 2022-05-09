@@ -1,4 +1,6 @@
 ---
+title: "AS-REP Roast: PowerShell"
+
 tags: [
 	hacking,
 	kerberos,
