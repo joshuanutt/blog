@@ -1,8 +1,10 @@
 ---
+title: "Persistence With DSRM And Mimikatz"
 tags: [
 	hacking,
 	crtp,
-	persistence
+	persistence,
+  powershell
 ]
 ---
 We have domain admin, lets really sink our hook in and ensure persistence.
