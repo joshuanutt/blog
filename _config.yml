@@ -142,9 +142,9 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
+    - label: "HackTheBox"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
+      # url: "https://app.hackthebox.com/profile/828641"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
