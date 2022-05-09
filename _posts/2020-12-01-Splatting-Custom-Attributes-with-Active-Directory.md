@@ -1,3 +1,11 @@
+---
+title: "Splatting Custom Attributes with Active Directory"
+tags: [
+	active-directory,
+  powershell
+]
+---
+
 Using splatted values can help better organize your code for managing AD Objects.
 
 <br>
