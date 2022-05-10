@@ -121,7 +121,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joshuanutt/"
     - label: "HackTheBox"
-      icon: "fab fa-fw"
+      icon: "fab fa-fw fa-terminal"
       url: "https://app.hackthebox.com/profile/828641"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -146,7 +146,7 @@ footer:
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "HackTheBox"
-      icon: "fab fa-fw ./assets/img/hackthebox.ico"
+      icon: "fab fa-fw fa-terminal"
       url: "https://app.hackthebox.com/profile/828641"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
