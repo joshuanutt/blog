@@ -146,7 +146,7 @@ footer:
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "HackTheBox"
-      icon: "fab fa-fw"
+      icon: "fab fa-fw ./assets/img/hackthebox.ico"
       url: "https://app.hackthebox.com/profile/828641"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
