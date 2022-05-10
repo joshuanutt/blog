@@ -122,7 +122,7 @@ author:
       url: "https://github.com/joshuanutt/"
     - label: "HackTheBox"
       icon: "fab fa-fw"
-      # url: "https://app.hackthebox.com/profile/828641"
+      url: "https://app.hackthebox.com/profile/828641"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -147,7 +147,7 @@ footer:
       # url:
     - label: "HackTheBox"
       icon: "fab fa-fw"
-      # url: "https://app.hackthebox.com/profile/828641"
+      url: "https://app.hackthebox.com/profile/828641"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
